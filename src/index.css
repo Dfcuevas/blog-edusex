@@ -6,6 +6,13 @@
 
 html {
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 li,
@@ -14,4 +21,15 @@ h1,
 h2,
 span {
   font-family: "Edu TAS Beginner", cursive;
+}
+
+.active {
+  background-color: rgb(192, 147, 255);
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a.active-content {
+  border-bottom: 1px solid;
+  padding-bottom: 3px;
 }
